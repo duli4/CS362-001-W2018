@@ -1,0 +1,20 @@
+Name: Liang Du
+Teammate: Zongyan Lu
+
+First Bug:
+In Appt.Java, the line 282, it is "String half = (getStartHour() >= 11) ? "pm" : "am";", it should change >= to >,
+because if the start hour is 11, it also would be "pm", which is not correct, the start hour just greater and equal to 12
+the time would be "pm".
+
+Second Bug:
+Also in Appt.java, the line 116 and 117, which is "if(startHour<=0 || startHour>=23)" and "this.valid=false;". 
+In this logic, it means the start hour is 0 or 23, the appt would be invalid. It is not correct, because the start hour
+can be 0 which is first hour in a day, and it also can be 23 which is last hour in a day. If start hour is 0 or 23 the 
+appt should be valid. One of way to correct it is change the if statement "if(startHour<=0 || startHour>=23)" to 
+"if(startHour<0 || startHour>23)"
+
+Third Bug:
+In the TimeTable.java, in the method "deleteAppt", line from 210 to 215, start at "for(int i=1;i<appts.size()-1;i++)"
+which is to search a specific appt and remove it. For this if statement, it cannot search and remove first appt in the LinkedList 
+appts, which is appts.get(0), and it also cannot search and remove the last appt in appts, which was appts.get(appts.size() - 1).
+One of the solution is change the if statement "for(int i=1;i<appts.size()-1;i++)" to "for(int i=0;i<appts.size();i++)"
