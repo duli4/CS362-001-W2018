@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="finalprojectA.UrlValidatorTest" time="15.519" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="finalprojectA.UrlValidatorTest" time="0.015" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Administrator\cs362\CS362-001-W2018\projects\duli\FinalProject\URLValidatorCorrect"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\duliang\cs362\CS362-001-W2018\projects\duli\FinalProject\URLValidatorCorrect"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,12 +16,12 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Administrator\cs362\CS362-001-W2018\projects\duli\FinalProject\URLValidatorCorrect"/>
+    <property name="user.dir" value="C:\Users\duliang\cs362\CS362-001-W2018\projects\duli\FinalProject\URLValidatorCorrect"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\duliang\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,19 +29,19 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\dev\tool\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;H:\cs344\st\c\bin;H:\cs344\st\perl\site\bin;H:\cs344\st\perl\bin;C:\dev\tool\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;H:\cs344\st\c\bin;H:\cs344\st\perl\site\bin;H:\cs344\st\perl\bin;C:\dev\tool\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;H:\新建文件夹;C:\Users\duliang\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\atom\bin;."/>
     <property name="maven.conf" value="C:\dev\tool\apache-maven-3.5.2\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\dev\tool\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.home" value="C:\Users\duliang"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="GBK"/>
-    <property name="user.name" value="Administrator"/>
+    <property name="user.name" value="duliang"/>
     <property name="java.class.path" value="C:\dev\tool\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -65,9 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidateUrl" time="0.002"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testIsValidScheme" time="0.003"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testIsValid" time="15.514"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator202" time="0"/>
-  <testcase classname="finalprojectA.UrlValidatorTest" name="testValidator204" time="0"/>
+  <testcase classname="finalprojectA.UrlValidatorTest" name="testYourSecondPartition" time="0.006"/>
+  <testcase classname="finalprojectA.UrlValidatorTest" name="testYourFirstPartition" time="0.007"/>
+  <testcase classname="finalprojectA.UrlValidatorTest" name="testIsValid" time="0.002"/>
 </testsuite>
